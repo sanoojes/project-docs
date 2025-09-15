@@ -20,17 +20,15 @@ export default defineConfig({
 			{ text: "Projects", link: "/projects" },
 		],
 		sidebar,
-		search: {
-			provider: "local",
-		},
+		search: { provider: "local" },
 		socialLinks: [{ icon: "github", link: "https://github.com/sanoojes" }],
 	},
-	sitemap: {
-		hostname: "https://projects.sanooj.uk",
-		transformItems(items) {
-			return items;
+	markdown: {
+		image: {
+			lazyLoading: true,
 		},
 	},
+	sitemap: { hostname: "https://projects.sanooj.uk" },
 	lastUpdated: true,
 	cleanUrls: true,
 	metaChunk: true,
