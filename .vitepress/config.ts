@@ -5,7 +5,6 @@ export default defineConfig({
 	title: "Projects by Sanooj",
 	description: "This site contains all the documentations for my projects",
 	head: [
-		["link", { rel: "icon", href: "/favicon.ico" }],
 		[
 			"script",
 			{
