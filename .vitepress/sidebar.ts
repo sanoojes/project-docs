@@ -7,13 +7,13 @@ const backendSidebars = {} as SidebarConfig;
 const getSpicetifySidebar = (name: string) => ({
 	[`/spicetify/${name}/`]: [
 		{
-			text: `${capitalizeName(name)} Theme`,
+			text: `${capitalizeName(name)}`,
 			items: [
 				{ text: "Overview", link: `/spicetify/${name}/` },
-				{ text: "Installation", link: `/spicetify/${name}/installation` },
-				{ text: "Screenshots", link: `/spicetify/${name}/screenshots` },
-				{ text: "Uninstallation", link: `/spicetify/${name}/uninstallation` },
-				{ text: "Credits", link: `/spicetify/${name}/credits` },
+				{ text: "Installation", link: `/spicetify/${name}/installation/` },
+				{ text: "Screenshots", link: `/spicetify/${name}/screenshots/` },
+				{ text: "Uninstallation", link: `/spicetify/${name}/uninstallation/` },
+				{ text: "Credits", link: `/spicetify/${name}/credits/` },
 			],
 		},
 	],
@@ -24,10 +24,10 @@ const spicetifySidebars = {
 		{
 			text: "Spicetify Projects",
 			items: [
-				{ text: "Lucid Theme", link: "/spicetify/lucid" },
-				{ text: "Lucid Lyrics", link: "/spicetify/lucid-lyrics" },
-				{ text: "Glassify Theme", link: "/spicetify/glassify" },
-				{ text: "LibX reborn", link: "/spicetify/libx-reborn" },
+				{ text: "Lucid Theme", link: "/spicetify/lucid/" },
+				{ text: "Lucid Lyrics", link: "/spicetify/lucid-lyrics/" },
+				{ text: "Glassify Theme", link: "/spicetify/glassify/" },
+				{ text: "LibX reborn", link: "/spicetify/libx-reborn/" },
 				{
 					text: "Daily Mix Url Fixer",
 					link: "/spicetify/daily-mix-url-fixer",
@@ -38,6 +38,16 @@ const spicetifySidebars = {
 	...getSpicetifySidebar("lucid"),
 	...getSpicetifySidebar("glassify"),
 	...getSpicetifySidebar("lucid-lyrics"),
+	"/spicetify/libx-reborn/": [
+		{
+			text: "LibX Reborn",
+			items: [
+				{ text: "Main", link: "/spicetify/libx-reborn/" },
+				{ text: "Screenshots", link: "/spicetify/libx-reborn/screenshots" },
+			],
+		},
+	],
+	"/spicetify/daily-mix-url-fixer/": [],
 } satisfies SidebarConfig;
 
 const rootSidebar = {
@@ -45,9 +55,9 @@ const rootSidebar = {
 		{
 			text: "Project Types",
 			items: [
-				{ text: "Web", link: "/web" },
-				{ text: "Backend", link: "/backend" },
-				{ text: "Spicetify", link: "/spicetify" },
+				{ text: "Web", link: "/web/" },
+				{ text: "Backend", link: "/backend/" },
+				{ text: "Spicetify", link: "/spicetify/" },
 			],
 		},
 	],
