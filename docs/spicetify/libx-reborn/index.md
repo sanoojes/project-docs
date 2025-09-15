@@ -16,9 +16,9 @@ new Global Nav styles.
 
 ## Installation
 
-- **Easiest Method - Install from Spicetify Marketplace:** - Search for "LibX
-  Reborn" in your Spicetify Marketplace and click install. (This requires having
-  the Marketplace custom app set up).
+- **Install from Spicetify Marketplace:** - Search for "LibX-Reborn" in your
+  Spicetify Marketplace and click install. (This requires having the Marketplace
+  custom app set up).
 
 ### **Manual Installation**
 
@@ -34,11 +34,8 @@ new Global Nav styles.
      if manually installing).
 
 2. **Open Spicetify Extensions Folder:**
-   - **macOS/Linux:** Open a terminal and run:
-     `xdg-open ~/.config/spicetify/Extensions` (or navigate manually to
-     `~/.config/spicetify/Extensions`).
-   - **Windows:** Open a Run dialog (Win + R), paste
-     `%AppData%\Roaming\spicetify\Extensions` and press Enter.
+   - Use command `spicetify config-dir` to open the directory then navigate to
+     Extensions folder
 
 3. **Place Extension File:**
    - Move or copy the downloaded `LibX-Reborn.js` file into the opened
@@ -67,22 +64,6 @@ new Global Nav styles.
 3. **Apply Changes & Restart:**
    - Run the command: `spicetify apply`
    - Fully close and reopen Spotify to complete the uninstallation process.
-
-## **Screenshots**
-
-<div class="screenshot-grid">
-
-![Screenshot 1](https://sanooj.uk/spicetify-extensions/LibX-Reborn/assets/sc1.png)
-
-![Screenshot 2](https://sanooj.uk/spicetify-extensions/LibX-Reborn/assets/sc2.png)
-
-![Screenshot 3](https://sanooj.uk/spicetify-extensions/LibX-Reborn/assets/sc3.png)
-
-![Screenshot 4](https://sanooj.uk/spicetify-extensions/LibX-Reborn/assets/sc4.png)
-
-![Screenshot 5](https://sanooj.uk/spicetify-extensions/LibX-Reborn/assets/sc5.png)
-
-</div>
 
 ## **Usage**
 

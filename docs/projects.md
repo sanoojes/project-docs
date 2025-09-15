@@ -37,26 +37,28 @@ _More backend projects coming soon…_ -->
 Here are some themes and extensions for spicetify:
 
 - **Lucid** – A customizable theme inspired by Fluent Design.\
-  [Docs](/spicetify/lucid/) |
-  [GitHub](https://github.com/sanoojes/spicetify-lucid)
+  [Docs](/spicetify/lucid/) | [Screenshots](/spicetify/lucid/screenshots/) |
+  [GitHub](https://github.com/sanoojes/spicetify-lucid/)
 
 - **Glassify** – A sleek, glassmorphic theme with frosted glass effects, smooth
   translucency, and customizability.\
-  [Docs](/spicetify/glassify/) |
-  [GitHub](https://github.com/sanoojes/spicetify-glassify)
+  [Docs](/spicetify/glassify/) | [Screenshots](/spicetify/glassify/screenshots/)
+  | [GitHub](https://github.com/sanoojes/spicetify-glassify/)
 
 - **Lucid Lyrics** – A highly customizable lyrics extension.\
   [Docs](/spicetify/lucid-lyrics/) |
-  [GitHub](https://github.com/sanoojes/lucid-lyrics)
+  [Screenshots](/spicetify/lucid-lyrics/screenshots/) |
+  [GitHub](https://github.com/sanoojes/lucid-lyrics/)
 
 - **LibX Reborn** – Extension to bring back the classic Library view to Spotify,
   which was removed in the Global Nav redesign introduced with Spotify 1.2.46.\
   [Docs](/spicetify/libx-reborn/) |
-  [GitHub](https://github.com/sanoojes/spicetify-extensions)
+  [Screenshots](/spicetify/libx-reborn/screenshots/) |
+  [GitHub](https://github.com/sanoojes/spicetify-extensions/)
 
 - **Daily Mix URL Fixer** – Revert Daily Mix image URLs to their previous
   format, restoring the classic look after recent updates.\
   [Docs](/spicetify/daily-mix-url-fixer/) |
-  [GitHub](https://github.com/sanoojes/spicetify-extensions)
+  [GitHub](https://github.com/sanoojes/spicetify-extensions/)
 
 _More projects coming soon…_
