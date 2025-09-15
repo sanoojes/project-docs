@@ -11,31 +11,31 @@ hero:
 features:
   - title: Lucid Lyrics
     icon: |
-      <img src="/brand-icons/spicetify.svg" aria-busy="true"/>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="24" width="24" fill="currentColor"><path d="M 29.922 22.449 L 27.591 21.605 C 27.117 21.433 26.762 21.071 26.576 20.606 L 25.629 18.11 C 25.342 17.368 24.7 17.008 24.057 17.008 C 23.414 17.008 22.756 17.368 22.486 18.11 L 21.538 20.606 C 21.354 21.071 20.997 21.433 20.523 21.605 L 18.19 22.449 C 16.686 22.983 16.686 25.152 18.19 25.705 L 20.523 26.547 C 20.997 26.721 21.354 27.083 21.538 27.546 L 22.486 30.045 C 22.773 30.784 23.414 31.147 24.057 31.147 C 24.7 31.147 25.359 30.784 25.629 30.045 L 26.576 27.546 C 26.762 27.083 27.117 26.721 27.591 26.547 L 29.922 25.705 C 31.429 25.17 31.429 23 29.922 22.449 Z M 26.729 24.102 C 25.562 24.517 24.647 25.428 24.192 26.6 L 24.022 27.03 L 23.852 26.6 C 23.413 25.43 22.484 24.517 21.315 24.102 L 21.232 24.068 L 21.315 24.034 C 22.484 23.622 23.396 22.709 23.852 21.537 L 24.022 21.106 L 24.192 21.537 C 24.63 22.708 25.562 23.622 26.729 24.034 L 26.811 24.068 L 26.729 24.102 Z"/><path d="M 7.589 3.304 L 8.233 3.53 C 8.366 3.581 8.467 3.683 8.519 3.805 L 8.79 4.494 C 8.875 4.701 9.042 4.804 9.228 4.804 C 9.414 4.804 9.584 4.701 9.669 4.494 L 9.939 3.805 C 9.99 3.667 10.091 3.581 10.226 3.53 L 10.868 3.304 C 11.291 3.15 11.291 2.564 10.868 2.408 L 10.226 2.184 C 10.091 2.132 9.99 2.029 9.939 1.909 L 9.669 1.219 C 9.584 1.012 9.414 0.909 9.228 0.909 C 9.042 0.909 8.875 1.012 8.79 1.219 L 8.519 1.909 C 8.467 2.045 8.366 2.132 8.233 2.184 L 7.589 2.408 C 7.168 2.564 7.168 3.15 7.589 3.304 Z"/><path d="M 2.684 10.793 C 2.921 10.879 3.124 11.07 3.21 11.309 L 3.7 12.603 C 3.852 12.982 4.174 13.172 4.511 13.172 C 4.849 13.172 5.189 12.982 5.323 12.603 L 5.813 11.309 C 5.898 11.07 6.099 10.879 6.337 10.793 L 7.556 10.363 C 8.333 10.088 8.333 8.969 7.556 8.676 L 6.337 8.246 C 6.101 8.16 5.899 7.969 5.813 7.728 L 5.323 6.438 C 5.17 6.058 4.849 5.869 4.511 5.869 C 4.174 5.869 3.835 6.058 3.7 6.438 L 3.21 7.728 C 3.126 7.969 2.923 8.16 2.684 8.246 L 1.467 8.676 C 0.69 8.952 0.69 10.072 1.467 10.363 L 2.684 10.793 Z"/><path d="M 13.964 25.446 C 12.931 25.135 11.815 25.135 10.785 25.446 C 9.618 25.789 8.621 26.512 7.86 27.081 C 7.15 27.596 6.474 28.079 5.78 28.322 C 5.156 28.527 4.531 28.493 4.157 28.235 C 3.903 28.061 3.752 27.754 3.735 27.442 L 3.735 27.357 C 4.224 27.563 4.716 27.667 5.224 27.667 C 6.102 27.667 6.981 27.341 7.658 26.702 C 9.839 24.793 12.291 22.829 14.674 20.951 C 16.128 19.798 17.583 18.646 18.985 17.472 C 19.054 17.472 19.139 17.491 19.206 17.491 C 21.253 17.491 23.248 16.664 24.718 15.167 C 27.761 12.067 27.761 7.023 24.718 3.906 C 21.659 0.807 16.705 0.825 13.661 3.906 C 12.037 5.559 11.244 7.849 11.412 10.156 C 9.907 12.049 8.234 13.978 6.593 15.838 C 5.038 17.612 3.431 19.453 1.994 21.244 C 0.948 22.465 0.878 24.187 1.708 25.582 C 1.37 26.185 1.167 26.857 1.199 27.562 C 1.251 28.664 1.809 29.698 2.688 30.352 C 3.331 30.818 4.143 31.056 4.987 31.056 C 5.513 31.056 6.036 30.97 6.562 30.8 C 7.627 30.438 8.521 29.785 9.368 29.164 C 10.112 28.613 10.789 28.147 11.482 27.944 C 12.039 27.769 12.667 27.769 13.224 27.944 C 14.306 28.27 15.269 29.251 16.132 30.093 C 16.621 30.592 17.433 30.592 17.924 30.093 C 18.414 29.596 18.414 28.77 17.924 28.269 C 16.91 27.252 15.66 25.996 13.968 25.479 L 13.964 25.446 Z M 15.467 5.713 C 16.5 4.662 17.852 4.146 19.203 4.146 C 20.555 4.146 21.91 4.662 22.94 5.713 C 24.986 7.814 25.003 11.241 22.94 13.324 C 21.907 14.375 20.506 14.892 19.051 14.856 L 18.816 14.823 C 17.598 14.65 16.5 14.118 15.62 13.29 C 14.776 12.499 14.217 11.465 13.996 10.347 C 13.743 8.662 14.284 6.938 15.467 5.732 L 15.467 5.713 Z M 3.936 22.897 C 5.376 21.122 6.964 19.298 8.503 17.542 C 9.753 16.114 11.04 14.632 12.256 13.172 C 12.628 13.892 13.086 14.564 13.658 15.152 C 14.302 15.805 15.046 16.321 15.841 16.701 C 14.926 17.423 14.015 18.164 13.101 18.886 C 10.7 20.799 8.214 22.779 5.966 24.742 C 5.493 25.188 4.75 25.138 4.174 24.604 C 3.616 24.107 3.498 23.366 3.92 22.882 L 3.936 22.897 Z"/></svg>
     link: ./lucid-lyrics/
     details: A highly customizable lyrics extension.
 
   - title: Glassify
     icon: |
-      <img src="/brand-icons/spicetify.svg"  aria-busy="true"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-palette-icon lucide-palette"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></svg>
     link: ./glassify/
     details: A sleek, glassmorphic Spicetify theme with frosted glass effects, smooth translucency, and customizability.
 
   - title: Lucid
     icon: |
-      <img src="/brand-icons/spicetify.svg"  aria-busy="true"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-palette-icon lucide-palette"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></svg>
     link: ./lucid/
     details: A customizable Spicetify theme inspired by Fluent Design.
 
   - title: LibX Reborn
     icon: |
-      <img src="/brand-icons/spicetify.svg"  aria-busy="true"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-blocks-icon lucide-blocks"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/><rect x="14" y="2" width="8" height="8" rx="1"/></svg>
     link: ./libx-reborn/
     details: Extension to bring back the classic Library view to Spotify, removed in the Global Nav redesign.
 
   - title: Daily Mix URL Fixer
     icon: |
-      <div class="icon muted"><img src="/brand-icons/spicetify.svg"  aria-busy="true"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-blocks-icon lucide-blocks"><path d="M10 22V7a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5a1 1 0 0 0-1-1H2"/><rect x="14" y="2" width="8" height="8" rx="1"/></svg>
     link: ./daily-mix-url-fixer/
     details: Reverts Daily Mix image URLs to their previous format, restoring the classic look. (unmaintained)
 ---
