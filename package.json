@@ -1,0 +1,22 @@
+{
+	"name": "project-docs",
+	"version": "1.0.0",
+	"description": "Vitepress Docs for all my projects",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/username/project-docs.git"
+	},
+	"license": "MIT",
+	"author": "sanoojes",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "vitepress dev",
+		"build": "vitepress build",
+		"preview": "vitepress preview"
+	},
+	"devDependencies": {
+		"vitepress": "^2.0.0-alpha.12"
+	}
+}
