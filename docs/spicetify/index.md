@@ -1,6 +1,6 @@
 ---
 title: Spicetify
-titleTemplate: All of my Spicetify Projects
+titleTemplate: A list of Spicetify Projects made by Sanooj
 projectType: spicetify
 layout: home
 
