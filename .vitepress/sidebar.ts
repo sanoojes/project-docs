@@ -1,56 +1,8 @@
 import type { DefaultTheme } from "vitepress";
 type SidebarConfig = DefaultTheme.Config["sidebar"];
 
-const webSidebars = {} as SidebarConfig;
-const backendSidebars = {} as SidebarConfig;
-
-const getSpicetifySidebar = (name: string) => ({
-	[`/spicetify/${name}/`]: [
-		{
-			text: `${capitalizeName(name)}`,
-			items: [
-				{ text: "Overview", link: `/spicetify/${name}/` },
-				{ text: "Installation", link: `/spicetify/${name}/installation/` },
-				{ text: "Screenshots", link: `/spicetify/${name}/screenshots/` },
-				{ text: "Uninstallation", link: `/spicetify/${name}/uninstallation/` },
-				{ text: "Credits", link: `/spicetify/${name}/credits/` },
-			],
-		},
-	],
-});
-
-const spicetifySidebars = {
-	"/spicetify/": [
-		{
-			text: "Spicetify Projects",
-			items: [
-				{ text: "Lucid Theme", link: "/spicetify/lucid/" },
-				{ text: "Lucid Lyrics", link: "/spicetify/lucid-lyrics/" },
-				{ text: "Glassify Theme", link: "/spicetify/glassify/" },
-				{ text: "LibX reborn", link: "/spicetify/libx-reborn/" },
-				{
-					text: "Daily Mix Url Fixer",
-					link: "/spicetify/daily-mix-url-fixer",
-				},
-			],
-		},
-	],
-	...getSpicetifySidebar("lucid"),
-	...getSpicetifySidebar("glassify"),
-	...getSpicetifySidebar("lucid-lyrics"),
-	"/spicetify/libx-reborn/": [
-		{
-			text: "LibX Reborn",
-			items: [
-				{ text: "Main", link: "/spicetify/libx-reborn/" },
-				{ text: "Screenshots", link: "/spicetify/libx-reborn/screenshots" },
-			],
-		},
-	],
-	"/spicetify/daily-mix-url-fixer/": [],
-} satisfies SidebarConfig;
-
-const rootSidebar = {
+// Root sidebar
+const rootSidebar: SidebarConfig = {
 	"/": [
 		{
 			text: "Project Types",
@@ -61,20 +13,102 @@ const rootSidebar = {
 			],
 		},
 	],
-} satisfies SidebarConfig;
+};
 
+// Spicetify sidebar
+const spicetifySidebars: SidebarConfig = {
+	"/spicetify/": [
+		{
+			text: "Spicetify Projects",
+			items: [
+				{ text: "Lucid Theme", link: "/spicetify/lucid/" },
+				{ text: "Lucid Lyrics", link: "/spicetify/lucid-lyrics/" },
+				{ text: "Glassify Theme", link: "/spicetify/glassify/" },
+				{ text: "LibX Reborn", link: "/spicetify/libx-reborn/" },
+				{
+					text: "Daily Mix Url Fixer",
+					link: "/spicetify/daily-mix-url-fixer/",
+				},
+			],
+		},
+	],
+
+	"/spicetify/lucid/": [
+		{
+			text: "Lucid Theme",
+			items: [
+				{ text: "Overview", link: "/spicetify/lucid/" },
+				{ text: "Installation", link: "/spicetify/lucid/installation/" },
+				{ text: "Screenshots", link: "/spicetify/lucid/screenshots/" },
+				{ text: "Uninstallation", link: "/spicetify/lucid/uninstallation/" },
+				{ text: "Credits", link: "/spicetify/lucid/credits/" },
+			],
+		},
+	],
+
+	"/spicetify/lucid-lyrics/": [
+		{
+			text: "Lucid Lyrics",
+			items: [
+				{ text: "Overview", link: "/spicetify/lucid-lyrics/" },
+				{ text: "Installation", link: "/spicetify/lucid-lyrics/installation/" },
+				{ text: "Screenshots", link: "/spicetify/lucid-lyrics/screenshots/" },
+				{
+					text: "Uninstallation",
+					link: "/spicetify/lucid-lyrics/uninstallation/",
+				},
+				{ text: "Credits", link: "/spicetify/lucid-lyrics/credits/" },
+			],
+		},
+	],
+
+	"/spicetify/glassify/": [
+		{
+			text: "Glassify Theme",
+			items: [
+				{ text: "Overview", link: "/spicetify/glassify/" },
+				{ text: "Installation", link: "/spicetify/glassify/installation/" },
+				{ text: "Screenshots", link: "/spicetify/glassify/screenshots/" },
+				{ text: "Uninstallation", link: "/spicetify/glassify/uninstallation/" },
+				{ text: "Credits", link: "/spicetify/glassify/credits/" },
+			],
+		},
+	],
+
+	"/spicetify/libx-reborn/": [
+		{
+			text: "LibX Reborn",
+			items: [
+				{ text: "Main", link: "/spicetify/libx-reborn/" },
+				{ text: "Screenshots", link: "/spicetify/libx-reborn/screenshots/" },
+			],
+		},
+	],
+
+	"/spicetify/daily-mix-url-fixer/": [
+		{
+			text: "Daily Mix Url Fixer",
+			items: [],
+		},
+	],
+};
+
+// Web sidebar
+const webSidebars = {} as SidebarConfig;
+
+// Backend sidebar
+const backendSidebars = {} as SidebarConfig;
+
+// Cyber sidebar
+const cyberSidebars = {} as SidebarConfig;
+
+// Final sidebar export
 const sidebar: SidebarConfig = {
 	...rootSidebar,
 	...webSidebars,
 	...backendSidebars,
+	...cyberSidebars,
 	...spicetifySidebars,
-} satisfies SidebarConfig;
+};
 
 export default sidebar;
-
-function capitalizeName(name: string): string {
-	return name
-		.split("-")
-		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-		.join(" ");
-}
