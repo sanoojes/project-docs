@@ -1,64 +1,82 @@
 ---
 title: Projects
-titleTemplate: All the Projects by Sanooj
+titleTemplate: All Projects by Sanooj
 ---
 
 # Projects
 
-Welcome! Here you'll find a collection of my projects. I'll be adding more over
-time, covering web development, backend, and other exciting projects.
+Welcome!\
+Here you'll find a curated collection of my projects — ranging from **Web apps**
+to **Spicetify themes and extensions**.\
+I’ll continue to add more as I experiment and build new things.
 
-<!-- ## Web Projects
+## 🌐 Web Projects
 
-Here are some of my web development projects:
+Projects primarily focused on fullstack web development:
 
-- **Project Name 1** – A short description of what this project does.\
-  [GitHub](#) | [Live Demo](#)
+- **Resume** – My personal resume, built as a web project.\
+  [Live](https://resume.sanooj.uk) |
+  [GitHub](https://github.com/sanoojes/resume)
 
-- **Project Name 2** – Another web project description.\
-  [GitHub](#) | [Live Demo](#)
+- **Socials Redirect** – A lightweight Bun server for fast redirects to my
+  socials.\
+  [Live](https://socials.sanooj.uk) |
+  [GitHub](https://github.com/sanoojes/socials-redirect)
 
 _More web projects coming soon…_
 
-## Backend Projects
+## 🎵 [Spicetify Projects](/spicetify/)
 
-Here are some backend or API-focused projects:
+These include servers, APIs, themes, and extensions for Spicetify.
 
-- **Project Name 1** – Short description of the backend project.\
-  [GitHub](#)
+### Backend & APIs
 
-- **Project Name 2** – Another backend project description.\
-  [GitHub](#)
+- **Spicetify Analytics API** – A lightweight server powered by Express and
+  socket.io that provides real-time analytics for my Spicetify themes and
+  extensions.\
+  [Docs](/spicetify/analytics/) |
+  [Live](https://analytics.spicetify.projects.sanooj.uk/) |
+  [GitHub](https://github.com/sanoojes/spicetify-analytics/)
 
-_More backend projects coming soon…_ -->
+- **Spicetify API** – A fullstack server handling API tasks, serving lyrics for
+  my extensions, and offering a frontend analytics dashboard.\
+  [Docs](/spicetify/server/) | [Live](https://spicetify.projects.sanooj.uk/) |
+  [GitHub](https://github.com/sanoojes/spicetify-server/)
 
-## [Spicetify Projects](/spicetify/)
-
-Here are some themes and extensions for spicetify:
+### Themes
 
 - **Lucid** – A customizable theme inspired by Fluent Design.\
   [Docs](/spicetify/lucid/) | [Screenshots](/spicetify/lucid/screenshots/) |
   [GitHub](https://github.com/sanoojes/spicetify-lucid/)
 
-- **Glassify** – A sleek, glassmorphic theme with frosted glass effects, smooth
-  translucency, and customizability.\
+- **Glassify** – A glassmorphic theme with frosted glass effects and smooth
+  translucency.\
   [Docs](/spicetify/glassify/) | [Screenshots](/spicetify/glassify/screenshots/)
   | [GitHub](https://github.com/sanoojes/spicetify-glassify/)
 
-- **Lucid Lyrics** – A highly customizable lyrics extension.\
+- **ShadeX** – A shadcn/ui inspired customizable theme for Spotify.\
+  [Docs](/spicetify/shade-x/) | [Screenshots](/spicetify/shade-x/screenshots/) |
+  [GitHub](https://github.com/sanoojes/spicetify-shadex/)
+
+### Extensions
+
+- **Lucid Lyrics** – A fully customizable lyrics extension.\
   [Docs](/spicetify/lucid-lyrics/) |
   [Screenshots](/spicetify/lucid-lyrics/screenshots/) |
   [GitHub](https://github.com/sanoojes/lucid-lyrics/)
 
-- **LibX Reborn** – Extension to bring back the classic Library view to Spotify,
-  which was removed in the Global Nav redesign introduced with Spotify 1.2.46.\
+- **LibX Reborn** – Brings back the classic Library view removed in Spotify
+  1.2.46’s Global Nav redesign.\
   [Docs](/spicetify/libx-reborn/) |
   [Screenshots](/spicetify/libx-reborn/screenshots/) |
   [GitHub](https://github.com/sanoojes/spicetify-extensions/)
 
-- **Daily Mix URL Fixer** – Revert Daily Mix image URLs to their previous
-  format, restoring the classic look after recent updates.\
+- **Daily Mix URL Fixer** – Restores the old Daily Mix image URLs for the
+  classic look.\
   [Docs](/spicetify/daily-mix-url-fixer/) |
   [GitHub](https://github.com/sanoojes/spicetify-extensions/)
+
+👉 Check out the [analytics dashboard](https://spicetify.projects.sanooj.uk/)
+for live stats.
 
 _More projects coming soon…_

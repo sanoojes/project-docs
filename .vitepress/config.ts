@@ -5,6 +5,17 @@ export default defineConfig({
 	title: "Projects by Sanooj",
 	description: "This site contains all the documentations for my projects",
 	head: [
+		["meta", { name: "author", content: "Sanooj E Sanish" }],
+		[
+			"meta",
+			{
+				name: "keywords",
+				content:
+					"Sanooj, Sanooj E Sanish, projects, documentation, web, programming, backend",
+			},
+		],
+		["meta", { property: "og:type", content: "website" }],
+		["meta", { property: "og:url", content: "https://projects.sanooj.uk" }],
 		[
 			"script",
 			{
