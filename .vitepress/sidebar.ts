@@ -24,11 +24,15 @@ const spicetifySidebars: SidebarConfig = {
 				{ text: "Lucid Theme", link: "/spicetify/lucid/" },
 				{ text: "Lucid Lyrics", link: "/spicetify/lucid-lyrics/" },
 				{ text: "Glassify Theme", link: "/spicetify/glassify/" },
+				{ text: "ShadeX Theme", link: "/spicetify/shade-x/" },
+				{ text: "API Server", link: "/spicetify/server/" },
+
 				{ text: "LibX Reborn", link: "/spicetify/libx-reborn/" },
 				{
 					text: "Daily Mix Url Fixer",
 					link: "/spicetify/daily-mix-url-fixer/",
 				},
+				{ text: "Analytics Server", link: "/spicetify/analytics/" },
 			],
 		},
 	],
@@ -82,6 +86,18 @@ const spicetifySidebars: SidebarConfig = {
 				{ text: "Main", link: "/spicetify/libx-reborn/" },
 				{ text: "Screenshots", link: "/spicetify/libx-reborn/screenshots/" },
 			],
+		},
+	],
+	"/spicetify/analytics/": [
+		{
+			text: "Analytics Server",
+			items: [],
+		},
+	],
+	"/spicetify/server/": [
+		{
+			text: "API Server",
+			items: [],
 		},
 	],
 
