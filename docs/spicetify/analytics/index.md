@@ -10,7 +10,7 @@ Welcome to the **Spicetify Analytics Server** API documentation. This service
 tracks active users across various themes and provides real-time statistics via
 WebSocket and HTTP endpoints.
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 | Variable    | Description                                                   | Default | Example                  |
 | ----------- | ------------------------------------------------------------- | ------- | ------------------------ |
@@ -166,7 +166,7 @@ The server uses Redis to store:
 - Broadcasts to `/ws/public` every 5 seconds.
 - Includes `current` users, `weeklyAvg`, and `timestamp`.
 
-## 📦 Running the Server
+## Running the Server
 
 ```bash
 deno task start

@@ -9,13 +9,13 @@ This service powers lyrics fetching and caching for Spicetify extensions.\
 It is built with **Hono** (Deno), **Redis** for caching, and integrates with an
 external API for lyrics retrieval.
 
-## 🚀 Features
+## Features
 
 - Serves lyrics via `/api/lyrics/:id`
 - Uses **Redis caching** to reduce API calls
 - Provides **admin endpoints** for cache management
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 | Variable    | Description                                                                  |
 | ----------- | ---------------------------------------------------------------------------- |
@@ -24,7 +24,7 @@ external API for lyrics retrieval.
 | `API_KEY`   | API key for authenticating with external API URL of the lyrics API endpoints |
 | `PORT`      | (Optional) Server port (default: `8080`)                                     |
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### **1. Get Lyrics**
 
@@ -94,7 +94,7 @@ DELETE /admin/lyrics
 }
 ```
 
-## 🗄️ Caching Strategy
+## Caching Strategy
 
 - Lyrics are cached in **Redis** with a TTL of **14 days**.
 - Key format:
@@ -104,19 +104,19 @@ DELETE /admin/lyrics
   ```
 - Responses are stored as JSON (`{ lyrics, status }`).
 
-## 🌍 Static File Serving
+## Static File Serving
 
 - `/` → Serves `./public/index.html`
 - `/*` → Serves other files from `./public`
 - `404` → Custom error page at `./public/404.html`
 
-## 🛠️ Development Notes
+## Development Notes
 
 - Built on [Hono](https://hono.dev/) for routing and middleware
 - CORS is configured to allow `*` origins with `Authorization` and
   `Spotify-Token` headers
 
-## 📦 Running the Server
+## Running the Server
 
 ```bash
 deno task start
