@@ -31,9 +31,7 @@ The server uses:
 CORS is configured for the following origins:
 
 - `https://xpui.app.spotify.com`
-- `https://lyrics.lucid.sanooj.is-a.dev`
-- `https://lucid.sanooj.is-a.dev`
-- `https://spicetify.projects.sanooj.uk`
+- `https://spicetify-projects.sanooj.uk`
 - `http://localhost:8787`
 
 ## Themes

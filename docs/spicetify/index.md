@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Project Analytics
-      link: https://spicetify.projects.sanooj.uk/
+      link: https://spicetify-projects.sanooj.uk/
     - theme: alt
       text: Browse All Projects
       link: /projects#spicetify-projects

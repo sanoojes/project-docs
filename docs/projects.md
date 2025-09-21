@@ -35,12 +35,12 @@ These include servers, APIs, themes, and extensions for Spicetify.
   socket.io that provides real-time analytics for my Spicetify themes and
   extensions.\
   [Docs](/spicetify/analytics/) |
-  [Live](https://analytics.spicetify.projects.sanooj.uk/) |
+  [Live](https://analytics-spicetify-projects.sanooj.uk/) |
   [GitHub](https://github.com/sanoojes/spicetify-analytics/)
 
 - **Spicetify API** – A fullstack server handling API tasks, serving lyrics for
   my extensions, and offering a frontend analytics dashboard.\
-  [Docs](/spicetify/server/) | [Live](https://spicetify.projects.sanooj.uk/) |
+  [Docs](/spicetify/server/) | [Live](https://spicetify-projects.sanooj.uk/) |
   [GitHub](https://github.com/sanoojes/spicetify-server/)
 
 ### Themes
@@ -76,7 +76,7 @@ These include servers, APIs, themes, and extensions for Spicetify.
   [Docs](/spicetify/daily-mix-url-fixer/) |
   [GitHub](https://github.com/sanoojes/spicetify-extensions/)
 
-👉 Check out the [analytics dashboard](https://spicetify.projects.sanooj.uk/)
+👉 Check out the [analytics dashboard](https://spicetify-projects.sanooj.uk/)
 for live stats.
 
 _More projects coming soon…_
