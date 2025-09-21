@@ -33,6 +33,12 @@ export default defineConfig({
 		sidebar,
 		search: { provider: "local" },
 		socialLinks: [{ icon: "github", link: "https://github.com/sanoojes" }],
+		footer: {
+			message:
+				'Released under the <a href="https://github.com/sanoojes/project-docs/blob/main/LICENSE">MIT License</a>.',
+			copyright:
+				'Copyright © 2025-present <a href="https://github.com/sanoojes">Sanooj E Sanish</a>',
+		},
 	},
 	markdown: {
 		image: {
