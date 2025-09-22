@@ -35,9 +35,9 @@ export default defineConfig({
 		socialLinks: [{ icon: "github", link: "https://github.com/sanoojes" }],
 		footer: {
 			message:
-				'Released under the <a href="https://github.com/sanoojes/project-docs/blob/main/LICENSE">MIT License</a>.',
+				'Released under <a href="https://github.com/sanoojes/project-docs/blob/main/LICENSE">MIT License</a>.',
 			copyright:
-				'Copyright © 2025-present <a href="https://github.com/sanoojes">Sanooj E Sanish</a>',
+				'© 2025-present <a href="https://github.com/sanoojes">Sanooj E Sanish</a>',
 		},
 	},
 	markdown: {
