@@ -13,6 +13,9 @@ hero:
       text: Getting Started
       link: ./installation
     - theme: brand
+      text: Discord
+      link: https://social.sanooj.uk/spicetify-discord
+    - theme: brand
       text: Github
       link: https://github.com/sanoojes/lucid-lyrics
     - theme: alt
