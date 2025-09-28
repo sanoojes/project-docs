@@ -11,15 +11,15 @@ hero:
     - theme: brand
       text: Getting Started
       link: ./installation
-    - theme: alt
-      text: Screenshots
-      link: ./screenshots
     - theme: brand
       text: Discord
       link: https://social.sanooj.uk/spicetify-discord
     - theme: brand
       text: Github
       link: https://github.com/sanoojes/spicetify-lucid
+    - theme: alt
+      text: Screenshots
+      link: ./screenshots
     - theme: alt
       text: Credits
       link: ./credits
