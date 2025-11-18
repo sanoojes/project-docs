@@ -7,7 +7,19 @@ hero:
   actions:
     - theme: brand
       text: Explore All Projects
-      link: ./projects
+      link: /projects
+    - theme: brand
+      text: Web
+      link: /web/
+    - theme: brand
+      text: Backend
+      link: /backend/
+    - theme: brand
+      text: Cybersecurity
+      link: /cyber/
+    - theme: brand
+      text: Spicetify
+      link: /spicetify/
     - theme: alt
       text: GitHub
       link: https://github.com/sanoojes
