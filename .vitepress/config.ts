@@ -35,7 +35,7 @@ export default defineConfig({
     footer: {
       message:
         'Released under <a href="https://github.com/sanoojes/project-docs/blob/main/LICENSE">MIT License</a>.',
-      copyright: '© 2025-present <a href="https://github.com/sanoojes">Sanooj E Sanish</a>',
+      copyright: `Copyright © 2025-present <a href="https://github.com/sanoojes">Sanooj E Sanish</a>`,
     },
   },
   markdown: {
