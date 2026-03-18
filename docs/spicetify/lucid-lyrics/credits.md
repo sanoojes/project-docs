@@ -1,3 +1,9 @@
+---
+prev:
+  text: Uninstall
+  link: ./uninstallation
+---
+
 # Credits
 
 Lucid Lyrics wouldn’t be possible without the incredible tools, libraries, and

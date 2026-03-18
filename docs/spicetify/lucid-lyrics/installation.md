@@ -1,3 +1,12 @@
+---
+next:
+  text: Screenshots
+  link: ./screenshots
+prev:
+  text: Overview
+  link: ./
+---
+
 # Getting Started
 
 Welcome to **Lucid Lyrics** – a sleek and efficient lyrics extension for
@@ -57,7 +66,7 @@ directly.
 cp lucid-lyrics.js ~/.config/spicetify/Extensions/
 ```
 
-```powershell [Windows (Powershell)]
+```powershell [Windows]
 Copy-Item lucid-lyrics.js $env:APPDATA\spicetify\Extensions\
 ```
 
@@ -99,17 +108,17 @@ Copy the extension folder into Spicetify's extensions directory:
 cp -r dist/lucid-lyrics.js ~/.config/spicetify/Extensions/
 ```
 
-```powershell [Windows (Powershell)]
+```powershell [Windows]
 Copy-Item -Recurse dist\lucid-lyrics.js $env:APPDATA\spicetify\Extensions\
 ```
 
 :::
 
-_(Use `spicetify config-dir` to quickly find your Spicetify configuration
+\_(Use `spicetify config-dir` to quickly find your Spicetify configuration
 folder.
 
 - **Linux/macOS:** `~/.config/spicetify/`
-- **Windows:** `%APPDATA%\spicetify\`)_
+- **Windows:** `%APPDATA%\spicetify\`)\_
 
 #### 4. Enable the Extension
 
