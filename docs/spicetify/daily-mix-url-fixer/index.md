@@ -7,8 +7,8 @@ titleTemplate: Get back your old daily mix images
 
 Get back your old daily mix images
 
-::: warning 
-Unmaintained (But will work till the old links are working.) 
+::: warning
+Unmaintained (But will work till the old links are working.)
 :::
 
 ## What does it do ?

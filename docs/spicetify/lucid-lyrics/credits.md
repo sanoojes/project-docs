@@ -25,5 +25,4 @@ Lucid Lyrics is built with the following open-source projects:
 - Open-source developers whose libraries make projects like Lucid Lyrics possible
 - Anyone who contributed suggestions, bug reports, or ideas
 
-
-*Made with ❤️ and music in mind.*
+_Made with ❤️ and music in mind._

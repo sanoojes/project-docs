@@ -102,6 +102,7 @@ DELETE /admin/lyrics
   ```
   lyrics:<id>
   ```
+
 - Responses are stored as JSON (`{ lyrics, status }`).
 
 ## Static File Serving

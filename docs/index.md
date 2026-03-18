@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "My Projects"
+  name: "Projects by Sachu !"
   tagline: "A collection of tools, web apps, and backend systems I've built and love to work on."
   actions:
     - theme: brand

@@ -8,12 +8,14 @@ Follow this guide to quickly install and configure the extension, whether you pr
 
 Before proceeding, make sure you have the following installed:
 
-* 🎧 **Spotify** (Desktop version)
-- [Spotify Installation Guide](https://www.spotify.com/de-en/download/)
-* ⚙ **Spicetify CLI** – A powerful tool for personalizing Spotify’s interface and functionality
+- 🎧 **Spotify** (Desktop version)
+
+* [Spotify Installation Guide](https://www.spotify.com/de-en/download/)
+
+- ⚙ **Spicetify CLI** – A powerful tool for personalizing Spotify’s interface and functionality
   - [Spicetify Installation Guide](https://spicetify.app/docs/getting-started)
-* 📦 **Deno** (Optional) – Required only if you plan to build Lucid Lyrics from source
-    - [Deno Installation Guide](https://docs.deno.com/runtime/getting_started)
+- 📦 **Deno** (Optional) – Required only if you plan to build Lucid Lyrics from source
+  - [Deno Installation Guide](https://docs.deno.com/runtime/getting_started)
 
 ## 🚀 Installation Guide
 
@@ -28,7 +30,6 @@ You can install **Lucid Lyrics** either through the Marketplace or by building i
 
 That’s it! The extension will be enabled automatically.
 
-
 ### **Build from Source**
 
 #### 1. Download the Extension
@@ -40,7 +41,9 @@ git clone https://github.com/sanoojes/lucid-lyrics.git
 ```
 
 #### 2. Build the Extension
+
 You can build the extension using `build` task. Extension will be saved to `/dist` folder
+
 ```bash
 deno run build
 ```
@@ -53,9 +56,10 @@ Copy the extension folder into Spicetify’s extensions directory:
 cp -r dist/lucid-lyrics.js ~/.config/spicetify/Extensions/
 ```
 
-*(Use `spicetify config-dir` to quickly find your Spicetify configuration folder.)*
+_(Use `spicetify config-dir` to quickly find your Spicetify configuration folder.)_
 
 #### 4. Enable the Extension
+
 You can enable the extension using these methods.
 
 ##### **Using the Command Line**
@@ -91,7 +95,6 @@ spicetify apply
 
 Now you can enjoy synced lyrics while listening to your favorite tracks!
 
-
 Here’s the updated **How to Use** section with clearer instructions and improved formatting:
 
 ## 🧭 How to Use
@@ -100,18 +103,17 @@ Here’s the updated **How to Use** section with clearer instructions and improv
 2. Click on the **lyrics icon** in the playbar or the “Now Playing” sidebar (right panel) to view the lyrics.
 3. Open the settings by clicking your **profile picture** in the top bar and selecting **Lucid Lyrics Settings**.
 4. Use the settings menu to:
-   * Adjust the background theme (animated, static or solid color),
-   * Fine-tune the timing offset,
-   * Toggle romanized lyrics on or off.
+   - Adjust the background theme (animated, static or solid color),
+   - Fine-tune the timing offset,
+   - Toggle romanized lyrics on or off.
 5. Sit back and enjoy as the lyrics highlight lines and words in real time, perfectly synced with the music.
-
 
 ## ✅ Troubleshooting
 
 **❌ Lyrics not showing?**
 
-* Make sure `lucid-lyrics.js` is listed in the enabled extensions.
-* Restart Spotify and run `spicetify apply` again.
+- Make sure `lucid-lyrics.js` is listed in the enabled extensions.
+- Restart Spotify and run `spicetify apply` again.
 
 <!-- ---
 

@@ -59,12 +59,11 @@ The API exposes two Socket.IO namespaces:
 - **Namespace:** `/ws/public`
 - **Purpose:** Broadcast current stats and weekly averages
 - **Events:**
-
   - `userStats` - Sends current active users and weekly average.
 
 ```ts
 publicNamespace.on("connection", (socket) => {
-    socket.emit("userStats", { current, weeklyAvg });
+  socket.emit("userStats", { current, weeklyAvg });
 });
 ```
 
@@ -73,21 +72,20 @@ publicNamespace.on("connection", (socket) => {
 - **Namespace:** `/ws/users`
 - **Purpose:** Track individual user connections
 - **Handshake Auth Fields:**
-
   - `type` - Analytics type (`theme`, `lyrics_extension`, `glassify_theme`)
   - `userId` - Optional unique user ID
-- **Behavior:**
 
+- **Behavior:**
   - Increments users on connection
   - Decrements users on disconnect
   - Logs activity in Redis
 
 ```ts
 privateNamespace.on("connection", (socket) => {
-    const userType = socket.handshake.auth?.type ?? "lyrics_extension";
-    const userId = socket.handshake.auth?.userId;
-    incrementUsers(userType);
-    logUserActivity(userType, userId);
+  const userType = socket.handshake.auth?.type ?? "lyrics_extension";
+  const userId = socket.handshake.auth?.userId;
+  incrementUsers(userType);
+  logUserActivity(userType, userId);
 });
 ```
 
@@ -116,16 +114,16 @@ Returns:
 
 ```json
 {
-    "current": {
-        "theme": 12,
-        "lyrics_extension": 8,
-        "glassify_theme": 5
-    },
-    "weeklyAvg": {
-        "theme": 14.3,
-        "lyrics_extension": 9.7,
-        "glassify_theme": 6.1
-    }
+  "current": {
+    "theme": 12,
+    "lyrics_extension": 8,
+    "glassify_theme": 5
+  },
+  "weeklyAvg": {
+    "theme": 14.3,
+    "lyrics_extension": 9.7,
+    "glassify_theme": 6.1
+  }
 }
 ```
 
@@ -137,11 +135,11 @@ Returns weekly unique user counts per theme.
 
 ```json
 {
-    "weeklyUniqueAvg": {
-        "theme": 50,
-        "lyrics_extension": 42,
-        "glassify_theme": 30
-    }
+  "weeklyUniqueAvg": {
+    "theme": 50,
+    "lyrics_extension": 42,
+    "glassify_theme": 30
+  }
 }
 ```
 

@@ -1,6 +1,8 @@
 # Uninstalling
 
-If you ever want to remove **Lucid Lyrics** from Spotify, follow the instructions below. You can uninstall it either through the Marketplace or using the CLI.
+If you ever want to remove **Lucid Lyrics** from Spotify, follow the
+instructions below. You can uninstall it either through the Marketplace or using
+the CLI.
 
 ## 🗑 Uninstall via Marketplace
 
@@ -17,7 +19,7 @@ That's it! Lucid Lyrics will be removed automatically.
 
 ```bash
 spicetify config extensions lucid-lyrics.js-
-````
+```
 
 2. Apply the changes to update Spotify:
 
@@ -30,9 +32,11 @@ spicetify apply
 ```bash
 rm ~/.config/spicetify/Extensions/lucid-lyrics.js
 ```
-*(Use `spicetify config-dir` to quickly find your Spicetify configuration folder.)*
 
-> Use `spicetify config-dir` to locate your configuration folder quickly if needed.
+_(Use `spicetify config-dir` to quickly find your Spicetify configuration
+folder.)_
+
+> Use `spicetify config-dir` to locate your configuration folder quickly if
+> needed.
 
 Lucid Lyrics is now completely removed from your Spotify setup. 🎵✅
-
