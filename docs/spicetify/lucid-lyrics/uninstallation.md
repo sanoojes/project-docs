@@ -29,14 +29,19 @@ spicetify apply
 
 3. Delete the extension file from your Spicetify configuration directory:
 
-```bash
+:::code-group
+```bash [Linux/macOS]
 rm ~/.config/spicetify/Extensions/lucid-lyrics.js
 ```
 
-_(Use `spicetify config-dir` to quickly find your Spicetify configuration
-folder.)_
+```powershell [Windows]
+Remove-Item $env:APPDATA\spicetify\Extensions\lucid-lyrics.js
+```
+:::
 
-> Use `spicetify config-dir` to locate your configuration folder quickly if
-> needed.
+_(Use `spicetify config-dir` to quickly find your Spicetify configuration
+folder.
+- **Linux/macOS:** `~/.config/spicetify/`
+- **Windows:** `%APPDATA%\spicetify\`)
 
 Lucid Lyrics is now completely removed from your Spotify setup. 🎵✅
